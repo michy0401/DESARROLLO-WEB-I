@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+
+#Logo{
+    width: 80%;/*ajustando las imagenes para ser más responsivas*/
+    max-width: 500px;/*Limite de tamaño máximo para mantener la uniformidad*/
+    height: auto;
+    display: block;/*Haciendo que las imagenes se centren en bloque*/
+    margin: 0 auto;/*centrando las imagenes*/
+}
+
+
+.Sobre-Serie{
+    font-family: 'Mali';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.Sobre-Serie h1{
+    font-family: 'Great Vibes';
+    font-size: 4em;
+    font-weight: 900;
+    color: #d30019;
+}
+
+#banner{
+    width: 70%;/*ajustando las imagenes para ser más responsivas*/
+    max-width: 750px;/*Limite de tamaño máximo para mantener la uniformidad*/
+    height: auto;
+    display: block;/*Haciendo que las imagenes se centren en bloque*/
+    margin: 0 auto;/*centrando las imagenes*/
+}
+
+h2{
+    font-family: 'Great Vibes';
+    font-size: 2.5em;
+    font-weight: 900;
+    color: black; 
+    background-color: gray;
+    text-align: center;
+}
+
+
+.Personajes-Titulo{
+    font-family: 'Mali';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.Personajes-Titulo h3{
+    font-family: 'Great Vibes';
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.Personaje{
+    width: 50%;/*ajustando las imagenes para ser más responsivas*/
+    max-width: 250px;/*Limite de tamaño máximo para mantener la uniformidad*/
+    height: auto;
+}
+
+.Season{
+    width: 90%;
+    margin: 20px auto;/*centrando la tabla y añadiendo margen superior e inferior*/
+    border-collapse: collapse;
+}
+
+.Season th, .Season td{
+    border: 1px solid #ddd;/*bordes suaves y grises*/
+    padding: 10px; /*aumentar espacio entre el contenido de la celda*/
+    text-align: center;
+}
+
+.Season th{
+    font-family: 'Great Vibes';
+    font-size: 35px;
+    background-color: #d30019;/*fondo azul claro para encabezados*/
+    color: white;/*texto blanco para contraste*/
+    font-weight: bold
+}
+
+.Season td{
+    font-family: 'Mali';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.Canciones{
+    font-family: 'Mali';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: #cc0303;/*color morado para los enlaces*/
+    text-decoration: none;
+    font-weight: 700;/*enlaces mas gruesos para mejorar la visibilidad*/
+}
+
+a:hover{
+    color: #f70303;/*color mas claro al pasar el mouse*/
+    text-decoration: underline;/*subruyar enlaces al pasar el mouse*/
+}
+
+.footer{
+    font-family: 'Mali';
+    font-size: 1em;
+    color: rgb(42, 41, 41); 
+    background-color: gray;
+    text-align: center;
+}
