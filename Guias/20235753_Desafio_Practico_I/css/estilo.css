@@ -154,14 +154,14 @@ h1{
     height: auto;
 }
 
-h3 {
+.grid h3 {
     font-size: 20px;
     color: #033781;
     margin: 8px 0;
 	position: relative;
 }
 
-h3::after{
+.grid h3::after{
 	content: '';
 	display: block;
 	width: 95%;
@@ -188,4 +188,38 @@ h3::after{
 
 .botoncito:hover{
 	background-color: #1f79e7;
+}
+
+/*TESTIMONIO*/
+.testimonios{
+	background-color: #edeae6;
+	color: #98999b;
+	padding: 35px;
+	text-align: justify;
+}
+
+.testimonios-grid{
+	margin: 20px auto;
+}
+
+.testimonios-grid h3{
+	font-size: 36px;
+	color: black;
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+.testimonios-grid p{
+	margin: 20px;
+	text-align: justify;
+	line-height: 1.8;
+}
+
+/*FOOTER*/
+footer{
+	background-color: #323a45;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
 }
