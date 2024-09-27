@@ -20,7 +20,7 @@ header{
 }
 
 .logo{
-	height: 42px;
+	height: 50%;
 }
 
 
@@ -65,18 +65,23 @@ nav>ul>li>ul>li{
 
 
 /*CUERPO*/
+
+/*bolsa de trabajo esen*/
 .contenedor-slider{
 	width: 100%;
 	overflow: hidden;
 }
+
 .contenedor-slider img{
 	width: 100%;
 	height: auto;
 }
+
 section{
 	color: white;
 	background-color: #12488c;
 }
+
 .intro {
 	display: flex;
 	flex-direction: column;
@@ -86,20 +91,24 @@ section{
 	height: auto;
 	padding: 40px;
 }
+
 h1{
 	font-size: 2.5rem;
 	text-align: center;
 	color: white;
 }
+
 .intro a{
 	text-decoration: none;
 	color: white;
 }
+
 .intro p{
 	margin: 20px;
 	color: white;
 	text-align: justify;
 }
+
 .boton{
     background-color: #00315e;
     padding: 10px 15px;
@@ -109,4 +118,74 @@ h1{
     text-align: center;
 	display: inline-block;
     cursor: pointer;
+}
+
+/*ofertas, reparacion y capacitacion*/
+.servicios{
+	background-color: white;
+	color:#98999b;
+	padding: 20px 0;
+}
+
+.servicios .envoltorio{
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.grid {
+    background-color: white;
+    width: 32%;
+    margin: 30px;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 15px;
+	border: 1px solid #d1d1d1;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 350px;
+}
+
+
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 20px;
+    color: #033781;
+    margin: 8px 0;
+	position: relative;
+}
+
+h3::after{
+	content: '';
+	display: block;
+	width: 95%;
+	height: 2px;
+	background-color: #98999b;
+	margin: 10px auto 0;
+}
+
+.grid p {
+    color: #98999b;
+    margin: 15px 0;
+}
+
+.botoncito{
+	background-color: #12488c;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 15px;
+	font-size: 16px;	
+	align-self: center;
+}
+
+.botoncito:hover{
+	background-color: #1f79e7;
 }
