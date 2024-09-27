@@ -223,3 +223,65 @@ footer{
 	padding: 10px;
 	text-transform: uppercase;
 }
+
+/*tabla de ofertas*/
+
+.ofertas{
+	background-color: white;
+}
+table{
+	margin: 20px 15px;
+	width: 75%;
+	border-collapse: collapse;
+}
+
+th, td{
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+	color:black;
+}
+
+th{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+tr:nth-child(even){
+	background-color: white;
+}
+
+tr:nth-child(odd){
+	background-color: grey;
+}
+
+th:nth-child(1), td:nth-child(1){
+	width: 20%;
+}
+
+th:nth-child(2), td:nth-child(2){
+	width: 20%;
+}
+
+th:nth-child(3), td:nth-child(3){
+	width: 10%;
+}
+th:nth-child(4), td:nth-child(4){
+	width: 10%;
+}
+
+.aplicarBoton{
+	color: black;
+	padding: 5px 10px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;	
+	align-self: center;
+}
+
+.aplicarBoton:hover{
+	color: #12488c;
+}
+
