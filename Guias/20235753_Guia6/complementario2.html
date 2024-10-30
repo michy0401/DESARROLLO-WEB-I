@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    
+</head>
+<body>
+    <h1>Ficha de Estudiante</h1>
+
+    <form onsubmit="return validacionFormulario();">
+        <div>
+            <label for="carnet">Carnet</label>
+            <input type="text" id="carnet" placeholder="Ingrese su carnet" required>
+            <br>
+            <small>Formato: dos letras seguidas de tres números (Ej. AB001)</small>
+        </div>
+
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre completo" required>
+            <br>
+            <small>Formato: no debe contener números o caracteres especiales</small>
+        </div>
+
+        <div>
+            <label for="dui">DUI</label>
+            <input type="text" id="dui" placeholder="Ingrese su DUI" required>
+            <br>
+            <small>Formato: ########-#</small>
+        </div>
+
+        <div>
+            <label for="nit">NIT</label>
+            <input type="text" id="nit" placeholder="Ingrese su NIT" required>
+            <br>
+            <small>Formato: ####-######-###-#</small>
+        </div>
+
+        <div>
+            <label for="fecnac">Fecha de Nacimiento</label>
+            <input type="date" id="fecnac" required>
+            <br>
+            <small>Formato: dd/mm/yyyy</small>
+        </div>
+
+        <div>
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" placeholder="Ingrese su correo electrónico" required>
+            <br>
+            <small>Formato: correoelectronico@extension</small>
+        </div>
+
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" placeholder="Ingrese su edad" required>
+            <br>
+            <small>Formato: solo números</small>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <script src="js/complementario2.js"></script>
+</body>
+</html>
